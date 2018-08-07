@@ -1,0 +1,17 @@
+import java.util.*;
+
+public class Vehicle{
+  int wheel;
+  int seat;
+ public  Vehicle(int w, int s){
+  wheel = w;
+  seat = s;
+
+ }
+ public int getWheel(){
+  return wheel;
+ }
+ public int getSeat(){
+  return seat;
+ }
+}

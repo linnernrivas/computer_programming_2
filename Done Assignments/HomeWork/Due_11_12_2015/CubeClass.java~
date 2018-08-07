@@ -1,0 +1,13 @@
+/*Write  classes CubeClass which implement the interface you created.*/
+//Date: 11-11-2015
+//Create by:Linner Rivas
+
+public class CubeClass implements ObjectWithOneParameter{
+  public double surfaceArea(double p){
+    return p;
+  }
+  public double volume(double p){
+    return p;
+
+  }
+}

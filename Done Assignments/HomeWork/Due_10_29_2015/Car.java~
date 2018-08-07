@@ -1,0 +1,18 @@
+import java.util.*;
+public class Car extends Vehicle{
+ int door;
+ int window;
+ public int Car(int w,int s, int d,int wi){
+  super.getWheel();
+  super.getSeat();
+  door = d;
+  window = wi;
+ }
+ public double getWindow(){
+    return window;
+  }
+  public double getDoor(){
+    return door;
+  }
+
+}

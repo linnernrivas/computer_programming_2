@@ -1,0 +1,8 @@
+public class RectangleDemo(){
+  public static void main(String[] arg ){
+    Rectangle rc = new Rectangle();
+    
+    doble result = rc area();
+    System.out.println(result);
+  }
+}

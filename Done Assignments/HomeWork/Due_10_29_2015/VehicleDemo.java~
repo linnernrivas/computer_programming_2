@@ -1,0 +1,13 @@
+import java.util.*;
+public class VehicleDemo{
+  public static void main(String[] args){
+    Car a = new Car();
+    System.out.println(a.getSeat());
+    //System.out.println(a.getDoor());
+     
+     Motorcycle w = new Motorcycle(a);
+     System.out.println(w.getHelmet());
+     
+ }
+
+}

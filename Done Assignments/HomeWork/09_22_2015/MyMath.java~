@@ -1,0 +1,18 @@
+public class  MyMath {
+  public class Absolute{
+  
+  private double length;
+    private double width;
+   //This is the constructor
+    public Absolute(double l, double w)
+    {
+      length = l;
+      width = w;
+    }
+    //End of constructor
+  public double area()
+  {
+    return length*width;
+  }
+}
+}

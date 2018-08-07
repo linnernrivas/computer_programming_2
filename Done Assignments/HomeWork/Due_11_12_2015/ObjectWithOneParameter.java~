@@ -1,0 +1,17 @@
+/*Write an interface ObjectWithOneParameter which has the following methods---
+ * Methods: (1) surfaceArea (double p)Ñreturns the surface area of a particular object                 
+ * (2) volume (double p)Ñreturns the volume of a particular object   
+ * Write two classes CubeClass and SphereClass which implement the interface you created.  
+ * Write a Demo class which creates objects of CubeClass and SphereClass 
+ * and call the corresponding methods. */
+//Date: 11-11-2015
+//Created by: Linner Rivas
+
+//This is the "Interface" Class
+public interface ObjectWithOneParameter{
+  
+  //Final, static, public ==> can't be modified
+  double surfaceArea(double p);//Interface, not class
+  double volume(double p);//Everything in Interface is automatically public
+  
+}

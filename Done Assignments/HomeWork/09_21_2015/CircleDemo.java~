@@ -1,0 +1,20 @@
+class CircleDemo
+{
+   
+  public static void main (String[] arg){
+    
+  Circle cir = new Circle(); //object
+  cir.setRadius(100);
+ double result = cir.area(); //12
+ 
+ Circle cir1 = new Circle();
+ cir1.setRadius(150);
+ 
+ double result2 = cir1.area();
+ 
+ System.out.println(result);
+  System.out.println(result2);
+ 
+
+   }
+}

@@ -1,0 +1,13 @@
+public class CircleDemoConstructor
+{
+  public static void main (String [] args)
+  {
+   // CircleConstructor 
+     SoccerField Cir1 = new SoccerField(6,8);
+    double result1 = Cir1.area();
+    CricketField Cir2 = new CricketField(10,16);
+    double result2 = Cir2.area();
+    System.out.println("The area of the first circle is " + result1);
+    System.out.println("The area of the second circle is " + result2);
+  }
+}

@@ -1,0 +1,12 @@
+public class INTDemo
+{
+ public static void main (String [] args)
+ {
+  CubeClass c = new CubeClass();
+  SphereClass s = new SphereClass();
+  System.out.println(c.surfaceArea(120.00));
+  System.out.println(c.volume(80.00));
+  System.out.println(s.surfaceArea(100.0));
+  System.out.println(s.volume(50.00));
+}
+}
